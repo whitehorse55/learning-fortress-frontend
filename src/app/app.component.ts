@@ -8,6 +8,7 @@ import { AuthService } from './auth/auth.service';
     selector: 'app-root',
     templateUrl: './app.component.html',
 })
+// this is jinbo's comment
 export class AppComponent {
     constructor(public authService: AuthService) { }
 }
